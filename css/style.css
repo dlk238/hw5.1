@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	height: 100%;
+	padding: 0px auto;
+	margin:  0px auto;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font-family:  'helveticaneuecyrlight', Arial;
+	width: 100%;
+	background:url(../img/background.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+header {
+    width: 100%;
+    height: 36px;
+    margin: 0 auto;
+	background: #0a5493 url("../img/b_gr_nav.png") repeat scroll 0 0;
+}
+a {
+	text-decoration: none;
+	line-height: 36px
+}
+.menu {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.menu ul  {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+.menu ul li a {
+	color: #60b5ed;
+	display: block;
+	font-size: 14px;
+	padding: 0 13px;
+}
+.menu ul li a:hover {
+	color: #fff;
+	background-color: #4eabda;
+}
+.vertical_line {
+	height: 31px;
+	width: 1px;
+	margin: 2px 0;
+	background-color: #60b5ed;
+}
+.menu ul li img {
+	padding: 6px 0 0 19px ;
+}
+.menu ul li a span {
+	text-decoration: underline;
+}
+/*------------------------------ */
+.wrapper{
+
+    display: flex;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto; 
+}
+.box{
+	
+    height: 500px;
+    width: 440px;
+	background: rgba(0,0,0,0.5);
+    font-family: 'helveticaneuecyrlight', Arial;
+	color: #ffffff;
+	margin: auto;
+}
+
+.form{
+	text-align: center;
+	font-size: 14px;
+}
+
+.form h2{
+	text-align: center;
+	font-size: 24px;
+	padding:  15px 0;
+	border-bottom: 2px rgba(255,255,255, .6) solid;
+}
+
+.facebook_login{
+    display: flex;
+    margin: auto;
+    width: 250px;
+    height: 32px;
+    background: linear-gradient(#3e5694, #334164);
+	border-top:1px solid #778cb9;
+    line-height:32px;
+    text-align:center;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-top:25px;
+	margin-bottom:22px;
+}
+
+.facebook_login_left{
+	font-size: 22px;
+	font-weight: bold;
+	padding:  0 14px 0 15px ;
+	border-right:1px solid #203b70;
+}
+
+.facebook_login_right{
+	padding: 0 0 0 18px ;
+	border-left:1px solid #4c66a3;
+	
+}
+
+.facebook_login_right a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 9px;
+}
+
+.facebook_login_right span{
+	font-weight: 100;
+	
+}
+
+.greater_than{
+	padding-left: 14px;
+}
+
+.ou{
+    display:flex;
+    margin:auto;
+    width:250px;
+    height:30px;
+}
+
+.ou_line_left{
+	float: left;
+	height: 0;
+	width: 123px;
+	margin-top: 6px;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #000;
+}
+.ou_line{
+	display: block;
+	float: left;
+	height: 20px;
+	width: 30px;
+	text-align: center;
+	color: #999999;
+}
+.ou_line_right{
+	float: right;
+	height: 0;
+	width: 123px;
+	margin-top: 6px;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #000;
+}
+
+.form_user_reg
+{
+    width:250px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 4px 0;
+    border:0px solid red;
+    border-bottom-width:1px;
+    border-bottom-color:#4c4e43;
+    box-sizing: border-box;
+    background-color:#0f0f0f;
+    color:#d3d3d3;
+	margin-bottom:9px;
+}
+
+input:hover{
+    background-color:#1b5288;
+    color:#def6ff;
+}
+
+input[type="checkbox"]{
+    width:10px;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+input[type=submit] {
+    width:150px;
+    padding:5px; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 4px; 
+    background: linear-gradient(#4da9da, #3179c5);
+    color:#eeffff;
+}
+
+input:focus{
+    box-shadow: 0 0 5px 4px #4b7b98; 
+    background: #1b4d7f; 
+}
+
+.text{
+	display: flex;
+    margin: auto;
+    width: 340px;
+	font-size: 12px;
+    margin-top:17px;
+	text-align: center;
+}
